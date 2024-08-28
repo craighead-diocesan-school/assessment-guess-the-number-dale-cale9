@@ -3,7 +3,6 @@ let resutls = [
 
 ]
 
-
 function play() {
     alert("Let's play Guess the number.")
     let userName = prompt('What is your Name?')
@@ -20,7 +19,6 @@ function play() {
         userGuess = userGuess.trim()
         userGuess = Number(userGuess)
 
-
         if (computerNum == userGuess) {
             alert('Yay, you got it. ')
             numofAttemps = numofAttemps + 1
@@ -34,7 +32,7 @@ function play() {
 
         }
         else if (computerNum != userGuess ){
-            alert('invaild, try again.')
+            alert('Invaild, try again.')
         }
     }
 }
@@ -42,13 +40,6 @@ function play() {
 
 function showscoreboard() {
     alert(resutls)
-    let count = 0
-    let scoreboard = ''
-    while (count < arraylenght) {
-        scoreboard = scoreboard = resutls[count] + ','
-        count = count + 1
-    }
-
-
+    
 
 } 

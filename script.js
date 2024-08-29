@@ -18,7 +18,6 @@ function play() {
     let numofAttemps = 0
     let userGuess = 0
     // creates variables and initial values before being changed in the code.
-    alert(computerNum)
 
     while (computerNum != userGuess) {
         //This while works only when the user's guess does not equal the computer number.
@@ -63,11 +62,10 @@ function showScoreboard() {
     // Creates a variable and initial values before being changed in the code.
     let scoreboard = ''
     while (count < arraylength) {
+        count = count + 1
         scoreboard = scoreboard + resutls[count] + ','
         // This adds the results to the scoreboard and separates each player's results by a comma to make it easier to read.
-      
-
     }
     alert(resutls)
-    // This whole code 
+    // This whole code is simply used to output a scoreboard. 
 } 

@@ -66,6 +66,6 @@ function showScoreboard() {
         scoreboard = scoreboard + resutls[count] + ','
         // This adds the results to the scoreboard and separates each player's results by a comma to make it easier to read.
     }
-    alert(resutls)
+    alert('Scoreboard:' + resutls)
     // This whole code is simply used to output a scoreboard. 
 } 
